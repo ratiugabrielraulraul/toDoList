@@ -93,7 +93,7 @@ public class ToDoItemServlet extends HttpServlet {
     protected void doOptions(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         setAccessControlHeaders(resp);
     }
-        //CORS (CROSS-Origin-Resource-Sharing
+        //CORS (CROSS-Origin-Resource-Sharing)
     private void setAccessControlHeaders(HttpServletResponse resp) {
         resp.setHeader("Access-Control-Allow-Origin","*");
         resp.setHeader("Access-Control-Allow-Methods","GET,POST,PUT,DELETE");
